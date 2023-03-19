@@ -15,6 +15,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { MapsComponent } from './maps/maps.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { FooterComponent } from './footer/footer.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FooterComponent } from './footer/footer.component';
     AboutusComponent,
     ContactusComponent,
     MapsComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
