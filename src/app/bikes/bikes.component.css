@@ -1,0 +1,23 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    box-shadow: 5px 5px 25px   grey;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform .25s;
+    width: 100%;
+}
+.card img:hover{
+    transform: scale(1.2);
+}
+    
