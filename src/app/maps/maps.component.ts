@@ -36,7 +36,7 @@ export class MapsComponent {
   @ViewChild(GoogleMap)
   public map!: GoogleMap;
 
-  zoom = 12;
+  zoom = 16;
   center!: google.maps.LatLngLiteral;
   options: google.maps.MapOptions = {
     zoomControl: true,
