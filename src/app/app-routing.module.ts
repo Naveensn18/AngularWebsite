@@ -10,8 +10,8 @@ const routes: Routes = [
   {path:"BikeService",component:BikeserviceComponent},
   {path:"Home",component:HomepageComponent},
   {path:"About",component:AboutusComponent},
-  {path:"",component:HomepageComponent},
   {path:"Contact",component:ContactusComponent},
+  {path:"",component:LoginComponent},
   {path:"Login",component:LoginComponent}
 ];
 
