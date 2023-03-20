@@ -10,9 +10,9 @@
 .card{
     width:50%;
     padding: 25px;
-    background-color: rgb(255, 255, 255,0.4) ;
+    background-color: rgb(255, 255, 255) ;
     padding-bottom: 100px;
 }
 .card p{
-    color: white;
+    color: rgb(21, 1, 1);
 }
